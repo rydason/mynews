@@ -1,4 +1,5 @@
-{{-- layouts/admin.blade.phpを読み込む --}}
+
+<!-- uts/{{-- layoadmin.blade.phpを読み込む --}} -->
 @extends('layouts.admin')
 @section('title', 'ニュースの新規作成')
 
