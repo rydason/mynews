@@ -14,4 +14,11 @@ class News extends Model
         'body' => 'required',
     );
     //
+     // 以下を追記
+    // news Modelに関連付けをおこなう
+    public function histories()
+    {
+      return $this->hasMany('App\History');
+
+    }
 }
